@@ -1,0 +1,162 @@
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(238, 238, 238);
+  z-index: 100;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.line{
+  height: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.youtube-logo{
+  height: 25px;
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 70px;
+  max-width: 500px;
+  flex: 1;
+}
+
+.search-bar{
+  flex: 1;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  border-width: 1px;
+  border-style: solid;
+  border-color:  rgb(197, 197, 197);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder{
+  font-size: 18px;
+  padding-left: 13px;
+}
+
+.search{
+  height: 30px;
+}
+
+.search-button{
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+  width: 66px;
+  height: 52px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:  rgb(247, 247, 247);
+  margin-left: -1px;
+}
+
+.search-button,
+.voice-button,
+.upload,
+.apps,
+.notification {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button .tool,
+.voice-button .tool,
+.upload .tool,
+.apps .tool,
+.notification .tool{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px 4px 6px 4px;
+  cursor: pointer;
+  opacity: 0;
+  bottom: -40px;
+  pointer-events: none;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.search-button:hover .tool,
+.voice-button:hover .tool,
+.upload:hover .tool,
+.apps:hover .tool,
+.notification:hover .tool{
+  opacity: 1;
+}
+
+.voice-button{
+  height: 45px;
+  width: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(248, 248, 248);
+}
+
+.voice{
+  height: 28px;
+}
+
+.right-section{
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 28px;
+  flex-shrink: 0;
+}
+
+.upload-icon{
+  height: 30px;
+}
+
+.apps-icons{
+  height: 30px;
+}
+
+.notification-icons{
+  height:30px;
+}
+
+.notification-count{
+  position: relative;
+}
+
+.notification-number{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(194, 4, 4);
+  color: white;
+  font-size: 13px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
+}
+
+.channel-main-profile{
+  height:35px;
+  border-radius: 16px;
+  margin-right: 4px;
+}
