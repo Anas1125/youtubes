@@ -59,6 +59,6 @@ This is a front-end UI clone created for educational purposes. It is not affilia
 **Anas**
 
 GitHub: [@Anas1125](https://github.com/Anas1125)
-
+LinkedIn: https://in.linkedin.com/in/anas1125
 ---
 ⭐ If you find this project interesting, consider giving the repository a star!
